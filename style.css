@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+*{
+    /*color: ;*/
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    background-color: #129799;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 1239px;
+    height: 898.19px;
+}
+main{
+    background-color: #FFA185;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 1239px;
+    height: 898.19px;
+}
+footer{
+    background-color: #129799;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 1239px;
+    height: 170px;
+}
+.top-menu{
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    
+}
+.top-header-nav{
+    /*background-color: blueviolet;*/
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 100%;
+}
+.top-header-menu{
+    /*background-color: cornflowerblue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left: 12%;
+    width: 100%;
+    height: 1.8em;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+.header-portfolio{
+    margin-right: 5.6em;
+}
+.header-about{
+    margin-right: 5.6em;
+}
+.header-contact{
+    margin-right: 5.6em;
+}
+.header-portfolio:hover {
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 1;
+}
+.header-about:hover{
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 1;
+}
+.header-contact:hover {
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 1;
+}
+.mid-header{
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    width: 50%;
+    height: 50%;
+    font-size: 3.61em;
+    margin-top: 6%;
+    padding-right: 0;
+    padding-top: 10.25%;
+    padding-left: 3%;
+}
+header img{
+    width: 50%;
+    height: 60%;
+    padding-top: 8.9%;
+    padding-right: 3%;
+}
+.bottom-menu{
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 10%;   
+}
+.bottom-header-nav{
+    /*background-color: blueviolet;*/
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+.bottom-header-menu{
+    /*background-color: rgb(4, 64, 177);*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    width: 100%;
+    height: 5.67em;
+    font-size: 1.4em;
+    font-weight: 100;
+}
+.header-art{
+    margin-right: 6.4em;
+}
+.header-style{
+    margin-right: 6.4em;
+}
+.header-ebook{
+    margin-right: 6.4em;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 28%;
+    margin-top: 0.93em;
+    margin-left: 1.56em;
+}
+main h2{
+    padding-top: 1em;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+.main-text{
+    color: black;
+    padding-top: 1.5em;
+    width: 95%;
+    height: auto;
+    font-size: 1.75em;
+    letter-spacing: 0.075em;
+}
+.top-photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bottom-photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.top-left-photo{
+    width: 48%;
+}
+.top-right-photo{
+    width: 48%;
+}
+.bottom-left-photo{
+    width: 48%;
+}
+.bottom-right-photo{
+    width: 48%;
+}
+.seemore-box{
+    justify-content: center;
+    align-items: center;
+}
+.seemore{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-information{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: flex-end;
+    width: 50%;
+}
+.footer-nav{
+    display: flex;
+    margin-right: 22%;
+}
+.socialmedia-box{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    margin-left: 65px;
+}
+footer div img{
+    width: 40px;
+    height: 40px;
+    margin-left: 35px;
+}
+footer nav li{
+    margin-left: 90px;
+    font-size: 25px;
+    font-weight: 100;
+}
